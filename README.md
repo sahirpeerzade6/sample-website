@@ -1,2 +1,1 @@
-# sample-website
-sample website for beginners
+# sample-github-website
