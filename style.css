@@ -1,0 +1,103 @@
+header,footer{
+	background-color: lightgrey;
+	border: solid 1px black;
+	/*font-family:sans-serif,Arial,Helvetica,segoe UI;		*/
+}
+footer{
+	padding:10px;
+	border-radius: 3px;
+}
+
+body{
+	font-family:sans-serif,Arial,Helvetica,segoe UI;
+	font-size: 14PX;
+}
+body,html{
+	margin:0;
+	padding:0 ;
+	background-color: rgb(174, 185, 183);
+}
+#main{
+	border:solid 1px #ccc;
+	border-radius: 5px;
+	color: #202020;
+	margin: 20px 0;
+	padding:5px;
+}
+
+/*#result{
+	width: 250px;
+	padding:2px;
+	display: inline-block;/*not working
+	vertical-align:top;/*not working*//*not working*/
+
+}
+.border-image{
+	padding: 2px;
+	border: solid 1px #444;
+	border-radius: 2px;
+	width: 300px;
+	display: inline-block;/*not working*/
+	vertical-align:top;/*not working*/
+	/*position: absolute;
+	top:5px;
+	left: 5px;
+}*//*we can shifdt the form wherever we want according to our requirement we can shift**///
+}
+.border-image label{
+	font-weight: bold;
+}
+.border-image input[type=text]
+.border-image select{
+                       width: 150px;
+} 
+                                       /*.border-image input[type=password]
+                                              .border-image textarea */
+	       
+
+.border-image input[type=submit]{
+	background-color: green;
+	color:white;
+	border-radius: 15px;
+	padding:3px;
+	padding: 3px;
+	margin-top: 5px;
+
+}
+
+/*.sf:hover{
+	color:red;
+}
+.sf input[type=submit]:hover{
+	color: black;
+}*/
+.cnt {
+	width: 989px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+}
+
+header nav{
+	float: right;
+	margin-right: 5px;
+}
+header nav li{
+	display: inline;
+	font-size: 12px;
+}
+
+a{
+   color:red;
+}
+a:hover{
+	color:green;
+}
+
+
+.btn:hover{
+		background:white;
+} 
+
+
+  

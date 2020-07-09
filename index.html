@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Github  </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="cnt">
+	<header>
+	  <nav>
+		<ul>
+		<li><a href="/home.html">Home</a></li>
+		<li><a href="/about.html">About</a></li>
+		<li><a href="/contact.html">Contact</a></li>
+	    </ul>
+	    </nav>
+	<h1>Welcome to GitHub </h1>
+		<div >	
+			GitHub is a code hosting platform for collaboration and version control.
+		</div>
+	</header>
+	<section id="main" >
+	<p>	In this site, we'll show list of <a href="http://github.com">Github </a>projects and the data about those projects.
+	</p>
+	<form action="http://wilder.azurewebsites.net/echo" method="POST" class="border-image">
+		<div >
+		<label for="searchphrase">Search Phrase:</label>
+		<input  type="text" name="searchphrase" id="searchphrase" /><br/>
+		<input type="checkbox" name="useStars" id="useStars"  checked="true"/>
+		<label for="useStars">Use Stars?</label><br/>
+		<label for="languageChoice">Language:</label><br/>
+		<select name="languageChoice" id="languageChoice">
+			<option>All</option>
+			<option>Javaschript</option>
+			<option >C#</option>
+			<option >Java</option>
+			<option selected>Python</option>
+			<option>PHP</option>
+			<option>Rubby</option>
+		</select>
+		<br/>
+		<input class="btn" type="submit" value="Search" >
+	</form>
+	
+	</section>
+	<footer>
+		&copy; 2020 Sahir Peerzade 
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
